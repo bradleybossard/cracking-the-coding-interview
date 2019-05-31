@@ -23,3 +23,11 @@
 * 11 4.10 The in-order traversals won't tell us much.  After all, every binary search tree with the same values (regardless of structure) will have the same in-order traversal.  This is what in-order traversal means.  contents are in-order.  (And if it won't work in the specific case of a binary tree, then it certainly won't work for the general binary tree).  The pre-order traveral, however, is much more indicative.
 
 *12 3.1 We could simulate three stacks in an array by just allocating the first third of the array to the first stack, the second thrid to the second stack, and the final third to the third stack.  One might actually be much bigger than the others, though.  Can we be more flexible with the divisions?
+
+*13 2.6 Try using a stack.
+
+14 4.12 Don't forget that paths could overlap.  For example, if you're looking for the sum 6, the apths 1-> 3 -> 2 and 1 -> 3 -> 2 -> 4 -> 6 -> 2 are both valid.
+
+15 3.5 One way of sorting an array is to iterate through the array and insert each element into a new array in sorted order.  Can you do this with a stack?
+
+16 4.8 The first common ancestor is the deepest node such that p and q are both descendents.  Think about how you might identify this node.
